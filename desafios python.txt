@@ -1,0 +1,41 @@
+EXERCICIO EM PYTHON
+
+DESAFIO 051
+
+'''
+DESAFIO 051
+
+Desenvolva um programa que leia 6 n�meros inteiros e mostre a soma apenas
+daqueles que forem pares. Se o valor digitados for impar, desconsidere-o.
+'''
+
+soma = 0
+cont = 0
+for c in range(0, 6):
+  n = int(input('Digite um valor: '))
+  if n % 2 == 0:
+    soma += n
+print(f'A soma dos pares � {soma}')
+
+DESAFIO 052
+
+Desenvolva um programa que leia o PRIMEIRO TERMO E A RAZ�O de uma PA.
+No final, mostre os 10 primeiros termos dessa progress�o.
+
+
+DESAFIO 052
+
+Fa�a um programa que leia um n�mero e dia se ele � ou n�o um
+n�mero primo.
+
+DESAFIO 053
+
+Crie um programa que leia uma frase qualquer � diga se elqa �
+um palidromo, desconsiderando os espa�os.
+
+DESAFIO 054
+
+Crie um programa que leia o ano de nascimento de sete pessoas. No final,
+mostre quantas pessoas
+ainda n�o atingiram a maioridade e quantas j� s�o maiores.
+
